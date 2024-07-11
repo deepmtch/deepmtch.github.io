@@ -1,0 +1,118 @@
+---
+layout: post
+title: "How to Fine Tune Mistral on TextGen WebUI"
+date: 2024-07-09 00:00:00 +0000
+categories: mistral textgen tutorial
+excerpt: "Learn how to fine tune a Mistral model using TextGen WebUI and generate training data for German language."
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Fine Tune Mistral on TextGen WebUI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        p {
+            margin: 10px 0;
+        }
+        pre {
+            background: #f9f9f9;
+            padding: 10px;
+            border-left: 3px solid #ccc;
+            overflow-x: auto;
+        }
+        code {
+            color: #c7254e;
+            background: #f9f9f9;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>How to Fine Tune Mistral on TextGen WebUI</h1>
+        <p>In this tutorial, I will guide you through the process of fine-tuning a Mistral model using TextGen WebUI. By the end of this guide, you'll be able to configure the necessary formats, generate training data, and apply LoRA adapters to get your model fine-tuned to answer in German for fun! You can adapt this process for your own use cases.</p>
+        <p>For this tutorial, we'll generate around 400 datasets using GPT-4, demonstrating how easy and cost-effective it is to fine-tune a model. We'll be using a rented GPU on <a href="https://vast.ai" target="_blank">Vast.ai</a>. For more information on setting up Vast.ai, you can check out my other tutorials.</p>
+        
+        <h2>Step 1: Clone the TextGen WebUI Repository</h2>
+        <p>First, navigate to the <a href="https://github.com/oobabooga/text-generation-webui" target="_blank">TextGen WebUI GitHub repository</a> and clone the repository to your local machine. This can be done using the following command:</p>
+        <pre><code>git clone https://github.com/oobabooga/text-generation-webui.git</code></pre>
+        <p>After cloning, navigate to the directory and run the startup script:</p>
+        <pre><code>cd text-generation-webui
+./start_linux.sh</code></pre>
+        <p>When prompted to select a GPU, choose the NVIDIA option (option A).</p>
+        
+        <h2>Step 2: Create a New Data Format for Mistral</h2>
+        <p>For this tutorial, we will use the model <code>teknium/OpenHermes-2.5-Mistral-7B</code>. You can choose any other Mistral model as well. To create a new data format for Mistral, follow these steps:</p>
+        <p>Create a file named <code>mistral.json</code> and place it in the <code>/training/format/</code> directory. The content of the file should be:</p>
+        <pre><code>{
+    "instruction,output": "&lt;s&gt;[INST] %instruction% [/INST] %output%"
+}</code></pre>
+        <p>After saving the file, reload the UI to apply the new format.</p>
+        
+        <h2>Step 3: Generate Test Data</h2>
+        <p>Now, we need to create a prompt to generate the test data. This step involves using GPT-4 to generate around 400 datasets. Below is an example prompt to generate the test data:</p>
+        <img src="/assets/img/fine-tune-mistral/test_data_prompt.png" alt="Test Data Prompt">
+        
+        <h2>Step 4: Load Data Format and Configure Training Parameters</h2>
+        <p>Next, load the Mistral data format and the dataset in the Training tab. Set two configuration parameters for the LoRA training:</p>
+        <ul>
+            <li>Number of epochs</li>
+            <li>Addition of the EOS token by the trainer</li>
+        </ul>
+        <p>Once configured, click "Start LoRA Training" as shown in the screenshot below:</p>
+        <img src="/assets/img/fine-tune-mistral/training_parameters.png" alt="Training Parameters">
+        
+        <h2>Step 5: Apply the LoRA Adapter</h2>
+        <p>After the training is complete, go to the model tab and reload the model. Then apply the LoRA adapter as depicted below:</p>
+        <img src="/assets/img/fine-tune-mistral/apply_lora.png" alt="Apply LoRA">
+        <p>Ensure that you see the message “Successfully applied the LoRAs”.</p>
+        
+        <h2>Step 6: Configure Inference Parameters</h2>
+        <p>Before testing the model, you need to change the instruction template for Mistral. Navigate to the Parameters tab and select Mistral from the drop-down menu as shown below:</p>
+        <img src="/assets/img/fine-tune-mistral/inference_parameters.png" alt="Inference Parameters">
+        
+        <h2>Step 7: Test the Model</h2>
+        <p>Now, it's time to test your model. Go to the chat tab, select "Instruction", and enter any prompt. The model should respond in German, as specified in the training data. Here is an example:</p>
+        <img src="/assets/img/fine-tune-mistral/test_model.png" alt="Test Model">
+        
+        <h2>More Tips</h2>
+        <p>If you plan to perform more training sessions, make sure to always unload and reload the model before applying new LoRAs. This ensures that the LoRAs are applied correctly.</p>
+        
+        <p>Happy prompting!</p>
+    </div>
+</body>
+</html>

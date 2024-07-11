@@ -1,0 +1,151 @@
+---
+layout: post
+title: "Integrate ChatGPT on Your Mac Without Installing Software"
+date: 2024-07-10 00:00:00 +0000
+categories: integration
+excerpt: "Learn how to effortlessly integrate ChatGPT on your Mac without installing any software. This tutorial provides a step-by-step guide on creating a shortcut workflow that allows you to send text to OpenAI for processing."
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integrate ChatGPT on Your Mac Without Installing Software</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        img {
+            display: block;
+            margin: 10px auto;
+            border-radius: 4px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #333;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        ol {
+            padding-left: 20px;
+        }
+
+        pre {
+            background: #f9f9f9;
+            padding: 10px;
+            border-left: 3px solid #ccc;
+            overflow-x: auto;
+        }
+
+        code {
+            color: #c7254e;
+            background: #f9f9f9;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Effortless ChatGPT Integration on Mac: Zero Software Required</h1>
+        <p>There are dozens of tools that help you use ChatGPT on your Mac, whether for translation, text correction,
+            etc. But they all have one drawback: they either cost money or collect a lot of sensitive data before
+            sending your data to OpenAI or any other provider.</p>
+        <p>With this approach, you can simply send your text or whatever you want to be processed immediately to OpenAI,
+            Mistral, or any other even open-source model.</p>
+
+        <h2>How This Works?</h2>
+        <p>We simply create a shortcut workflow that you can call in any application where you have text, notepad,
+            browser, or anything else. You just right-click and your text is passed to the workflow, and the workflow
+            will create the prompt and send it to OpenAI. The response will then replace your text. If you want only to
+            analyze the text, say summarize, you can also do that by defining a separate workflow that has a simple
+            prompt like “summarize the given text,” for example.</p>
+
+        <h2>Here is How You Can Integrate OpenAI in Three Simple Steps:</h2>
+        <ol>
+            <li><strong>Import the Shortcut Workflow</strong><br>
+                Download and click the the shortcut workflow from the link provided below and open it.
+            </li>
+            <li><strong>Add Your API Key and Customize the Prompt</strong><br>
+                After importing the workflow, you will be prompted to enter your OpenAI API key. Make sure to replace
+                "YOUR_API_KEY" with your actual API key from OpenAI. You can also customize the prompt. The default
+                prompt is set to rephrase text, but you can change it to "summarize the following text" or any other
+                instruction you prefer.
+            </li>
+            <li><strong>Run from Anywhere</strong><br>
+                Once your shortcut is set up, you can run it from any application. Highlight the text you want to
+                process, right-click, select "Services", and choose your shortcut. The text will be sent to OpenAI and
+                replaced with the response.
+            </li>
+        </ol>
+        <p><a href="https://www.icloud.com/shortcuts/7a0ed32fd2df4ac0a6ed0bf29f8c4531">Download Shortcut Workflow</a>
+        </p>
+
+        <h3>Screenshot: API Key and Prompt</h3>
+        <img src="/assets/img/howto-integrate-openai/screenshot-api-key-and-prompt.png" alt="Screenshot of API Key and Prompt" style="width:50%;">
+
+        <h3>Screenshot: Calling the Shortcut</h3>
+        <img src="/assets/img/howto-integrate-openai/screenshot-calling-shortcut.png" alt="Screenshot of Calling the Shortcut" style="width:50%;">
+
+        <h3>Screenshot: Result of the Shortcut</h3>
+        <img src="/assets/img/howto-integrate-openai/screenshot-result-shortcut.png" alt="Screenshot of Result of the Shortcut" style="width:50%;">
+
+        <p>You can do the same for other things like summarizing, translation, etc., by just replacing the prompt and
+            creating appropriate keyboard shortcuts.</p>
+
+        <h2>Creating Workflows for Other Tasks</h2>
+        <p>Aside from rephrasing, you can create workflows for various tasks. For instance, to summarize text, create a
+            new shortcut with the same steps but change the prompt to "summarize the following text". Similarly, you can
+            set up workflows for translation by changing the prompt to "translate the following text to [language]". The
+            possibilities are endless.</p>
+
+        <h2>Customizing and Optimizing Your Workflow</h2>
+        <p>To enhance your workflow, consider adding conditions and error handling. For example, if the API request
+            fails, you can set a notification to alert you. You can also add different prompts based on user input,
+            making your workflow versatile and adaptable to different needs.</p>
+
+        <h2>Conclusion</h2>
+        <p>Integrating ChatGPT or any other language model into your Mac workflow can greatly enhance your productivity.
+            With a few simple steps, you can create a powerful tool that can rephrase, summarize, translate, and more,
+            all without installing any additional software. Try it out and see how it can improve your daily tasks.</p>
+    </div>
+</body>
+
+</html>
