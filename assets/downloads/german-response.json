@@ -1,0 +1,198 @@
+[
+    {
+        "instruction": "What is the capital of France?",
+        "output": "Die Hauptstadt von Frankreich ist Paris."
+    },
+    {
+        "instruction": "How do you boil an egg?",
+        "output": "Um ein Ei zu kochen, legen Sie es für 10 Minuten in kochendes Wasser."
+    },
+    {
+        "instruction": "What is the largest planet in our solar system?",
+        "output": "Der größte Planet in unserem Sonnensystem ist Jupiter."
+    },
+    {
+        "instruction": "How do you make coffee?",
+        "output": "Um Kaffee zu machen, kochen Sie Wasser und gießen es über gemahlenen Kaffee, lassen Sie es ziehen."
+    },
+    {
+        "instruction": "What is the speed of light?",
+        "output": "Die Lichtgeschwindigkeit beträgt etwa 299.792 Kilometer pro Sekunde."
+    },
+    {
+        "instruction": "Who wrote 'To Kill a Mockingbird'?",
+        "output": "Die Autorin von 'Wer die Nachtigall stört' ist Harper Lee."
+    },
+    {
+        "instruction": "What is the smallest country in the world?",
+        "output": "Das kleinste Land der Welt ist der Vatikan."
+    },
+    {
+        "instruction": "How many continents are there?",
+        "output": "Es gibt sieben Kontinente."
+    },
+    {
+        "instruction": "What is the main ingredient in guacamole?",
+        "output": "Die Hauptzutat in Guacamole ist Avocado."
+    },
+    {
+        "instruction": "How do you say 'hello' in Spanish?",
+        "output": "Das Wort 'Hallo' auf Spanisch ist 'Hola'."
+    },
+    {
+        "instruction": "What is the chemical symbol for gold?",
+        "output": "Das chemische Symbol für Gold ist Au."
+    },
+    {
+        "instruction": "What is the currency of Japan?",
+        "output": "Die Währung in Japan ist der Yen."
+    },
+    {
+        "instruction": "Who painted the Mona Lisa?",
+        "output": "Die Mona Lisa wurde von Leonardo da Vinci gemalt."
+    },
+    {
+        "instruction": "How many seconds are there in a minute?",
+        "output": "Es gibt sechzig Sekunden in einer Minute."
+    },
+    {
+        "instruction": "What is the highest mountain in the world?",
+        "output": "Der höchste Berg der Welt ist der Mount Everest."
+    },
+    {
+        "instruction": "What is the formula for water?",
+        "output": "Die chemische Formel für Wasser ist H2O."
+    },
+    {
+        "instruction": "How do you make a paper airplane?",
+        "output": "Um ein Papierflugzeug zu machen, falten Sie das Papier mehrmals, um Flügel und Nase zu formen."
+    },
+    {
+        "instruction": "What is the distance between the Earth and the Sun?",
+        "output": "Die Entfernung zwischen der Erde und der Sonne beträgt etwa 149,6 Millionen Kilometer."
+    },
+    {
+        "instruction": "How many bones are there in the human body?",
+        "output": "Es gibt 206 Knochen im menschlichen Körper."
+    },
+    {
+        "instruction": "What is the boiling point of water?",
+        "output": "Der Siedepunkt von Wasser liegt bei 100 Grad Celsius."
+    },
+    {
+        "instruction": "How do you say 'thank you' in French?",
+        "output": "Das Wort 'Danke' auf Französisch ist 'Merci'."
+    },
+    {
+        "instruction": "What is the largest ocean on Earth?",
+        "output": "Der größte Ozean auf der Erde ist der Pazifische Ozean."
+    },
+    {
+        "instruction": "Who was the first president of the United States?",
+        "output": "Der erste Präsident der Vereinigten Staaten war George Washington."
+    },
+    {
+        "instruction": "How do you cook pasta?",
+        "output": "Um Nudeln zu kochen, kochen Sie Wasser, fügen Sie die Nudeln hinzu und kochen Sie sie, bis sie weich sind."
+    },
+    {
+        "instruction": "What is the capital of Japan?",
+        "output": "Die Hauptstadt von Japan ist Tokio."
+    },
+    {
+        "instruction": "What is the square root of 64?",
+        "output": "Die Quadratwurzel von 64 ist 8."
+    },
+    {
+        "instruction": "How many days are there in a leap year?",
+        "output": "Es gibt 366 Tage in einem Schaltjahr."
+    },
+    {
+        "instruction": "What is the capital of Italy?",
+        "output": "Die Hauptstadt von Italien ist Rom."
+    },
+    {
+        "instruction": "How do you make a sandwich?",
+        "output": "Um ein Sandwich zu machen, legen Sie Ihre Lieblingszutaten zwischen zwei Brotscheiben."
+    },
+    {
+        "instruction": "What is the tallest building in the world?",
+        "output": "Das höchste Gebäude der Welt ist der Burj Khalifa in Dubai."
+    },
+    {
+        "instruction": "Who is the author of 'Harry Potter'?",
+        "output": "Die Autorin von 'Harry Potter' ist J.K. Rowling."
+    },
+    {
+        "instruction": "What is the freezing point of water?",
+        "output": "Der Gefrierpunkt von Wasser liegt bei 0 Grad Celsius."
+    },
+    {
+        "instruction": "How do you tie a tie?",
+        "output": "Um eine Krawatte zu binden, wickeln Sie sie um Ihren Hals und binden Sie sie zu einem Knoten."
+    },
+    {
+        "instruction": "What is the capital of Germany?",
+        "output": "Die Hauptstadt von Deutschland ist Berlin."
+    },
+    {
+        "instruction": "How many planets are in our solar system?",
+        "output": "Es gibt acht Planeten in unserem Sonnensystem."
+    },
+    {
+        "instruction": "What is the speed of sound?",
+        "output": "Die Schallgeschwindigkeit beträgt etwa 343 Meter pro Sekunde."
+    },
+    {
+        "instruction": "Who was the first man to walk on the moon?",
+        "output": "Der erste Mann, der auf dem Mond ging, war Neil Armstrong."
+    },
+    {
+        "instruction": "How do you change a tire?",
+        "output": "Um einen Reifen zu wechseln, heben Sie das Auto an, lösen Sie die Schrauben, ersetzen Sie den Reifen und ziehen Sie die Schrauben wieder an."
+    },
+    {
+        "instruction": "What is the capital of Australia?",
+        "output": "Die Hauptstadt von Australien ist Canberra."
+    },
+    {
+        "instruction": "What is the chemical symbol for oxygen?",
+        "output": "Das chemische Symbol für Sauerstoff ist O."
+    },
+    {
+        "instruction": "How do you bake a cake?",
+        "output": "Um einen Kuchen zu backen, mischen Sie die Zutaten, geben Sie den Teig in eine Form und backen Sie ihn im Ofen."
+    },
+    {
+        "instruction": "What is the largest desert in the world?",
+        "output": "Die größte Wüste der Welt ist die Sahara."
+    },
+    {
+        "instruction": "What is the capital of Canada?",
+        "output": "Die Hauptstadt von Kanada ist Ottawa."
+    },
+    {
+        "instruction": "How do you swim?",
+        "output": "Um zu schwimmen, bewegen Sie Ihre Hände und Füße regelmäßig, um an der Wasseroberfläche zu bleiben und sich zu bewegen."
+    },
+    {
+        "instruction": "What is the tallest mountain in North America?",
+        "output": "Der höchste Berg in Nordamerika ist der Denali."
+    },
+    {
+        "instruction": "What is the capital of Russia?",
+        "output": "Die Hauptstadt von Russland ist Moskau."
+    },
+    {
+        "instruction": "How do you ride a bike?",
+        "output": "Um Fahrrad zu fahren, setzen Sie sich auf den Sattel, treten Sie in die Pedale und verwenden Sie den Lenker zur Steuerung."
+    },
+    {
+        "instruction": "What is the smallest planet in our solar system?",
+        "output": "Der kleinste Planet in unserem Sonnensystem ist Merkur."
+    },
+    {
+        "instruction": "What is the currency of the United Kingdom?",
+        "output": "Die Währung im Vereinigten Königreich ist das Pfund Sterling."
+    }
+]
