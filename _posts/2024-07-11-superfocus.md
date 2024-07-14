@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Unlocking Super Focus: My Personal Techniques"
+title: "The Focus Formula: 7 Unconventional Techniques for Unbreakable Concentration"
 date: 2024-07-12 00:00:00 +0000
 categories: productivity focus self-improvement
 excerpt: "Discover unconventional methods to achieve intense concentration and boost your productivity. From repetitive music to fasting, these techniques might just revolutionize your focus game."
