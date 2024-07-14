@@ -15,3 +15,6 @@ Disallow: /
 
 User-agent: anthropic-ai
 Disallow: /
+
+User-Agent: PerplexityBot
+Disallow: /
