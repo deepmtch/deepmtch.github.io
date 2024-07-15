@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Organize Your Chrome Tabs with This Simple Open-Source Extension"
+date: 2024-07-10 00:00:00 +0000
+categories: Organize Your Chrome Tabs with This Simple Open-Source Extension
+excerpt: "Organize Your Chrome Tabs with This Simple Open-Source Extension"
+---
+
 # Organize Your Chrome Tabs with This Simple Open-Source Extension
 As a developer, I needed a straightforward way to organize my browser tabs without compromising on security or customizability. Unable to find an existing solution that met these criteria, I created Tab Sorter - an open-source Chrome extension designed for simplicity, security, and extensibility.
 
