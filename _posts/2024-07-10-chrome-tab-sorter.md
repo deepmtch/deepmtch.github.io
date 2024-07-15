@@ -1,4 +1,4 @@
-# Tab Sorter: A Simple, Open-Source Chrome Extension for Better Tab Management
+# Organize Your Chrome Tabs with This Simple Open-Source Extension
 As a developer, I needed a straightforward way to organize my browser tabs without compromising on security or customizability. Unable to find an existing solution that met these criteria, I created Tab Sorter - an open-source Chrome extension designed for simplicity, security, and extensibility.
 
 [Link to GitHub repository](https://github.com/deepmtch/chrome-tab-sorter)
