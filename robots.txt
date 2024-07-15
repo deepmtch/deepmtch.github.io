@@ -18,3 +18,8 @@ Disallow: /
 
 User-Agent: PerplexityBot
 Disallow: /
+
+
+
+User-agent: *
+Disallow: /
