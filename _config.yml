@@ -11,7 +11,7 @@
 ############################
 
 # Name of website
-title: My Blog 
+title: Home
 
 # Your name to show in the footer
 author: Some Person
@@ -20,6 +20,10 @@ author: Some Person
 # --- List of links in the navigation bar --- #
 ###############################################
 
+navbar-links:
+  # Home: "/"
+  Tools: "/tools"
+  Downloads: "/assets/downloads"
 # navbar-links:
 #   About Me: "aboutme"
 #   Resources:
@@ -302,3 +306,8 @@ plugins:
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
 
+
+collections:
+  tools:
+    output: true
+    permalink: /tools/:name/

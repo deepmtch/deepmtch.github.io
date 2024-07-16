@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPT Styler</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <h1>GPT Styler</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#faq">FAQ</a>
+    </nav>
+    <div class="toolbar">
+        <button id="convertToMarkdownButton" onclick="convertToMarkdown()">Rich Text to Markdown</button>
+        <button id="convertToHtmlButton" onclick="convertToHtml()">Markdown to Rich Text</button>
+    </div>
+
+    <div class="container">
+        <div id="input" contenteditable="true" oninput="detectContent()"></div>
+        <button id="copyButton" onclick="copyText()">Copy Text</button>
+        <div id="message"></div>
+
+        <div id="about" class="section">
+            <h2>About This Tool</h2>
+            <p>This converter allows you to easily switch between Rich Text and Markdown formats. It's particularly
+                useful when working with AI services that only accept plain text input. You can convert your formatted
+                text to Markdown, send it to the AI, and then convert the AI's response back to Rich Text.</p>
+        </div>
+
+        <div id="faq" class="section">
+            <h2>FAQ</h2>
+            <div class="faq-item">
+                <p class="faq-question">Q: Why would I need to convert between Rich Text and Markdown?</p>
+                <p>A: Many AI services only accept plain text input. Converting your formatted text to Markdown allows
+                    you to preserve formatting in a plain text format that's widely supported.</p>
+            </div>
+            <div class="faq-item">
+                <p class="faq-question">Q: Is my data safe when using this tool?</p>
+                <p>A: Yes, all conversions happen in your browser. No data is sent to any server.</p>
+            </div>
+            <div class="faq-item">
+                <p class="faq-question">Q: Can I use this tool offline?</p>
+                <p>A: Once the page is loaded, the converter will work offline. However, you'll need an internet
+                    connection to load the page initially.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/2.0.3/marked.min.js"></script>
+    <script src="script.min.js"></script>
+</body>
+</html>
