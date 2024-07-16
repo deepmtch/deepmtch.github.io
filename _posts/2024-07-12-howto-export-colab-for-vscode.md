@@ -1,7 +1,4 @@
-# Running Google Colab Notebooks in Visual Studio Code: A Step-by-Step Guide
-
-![Installing Jupyter Extension in VS Code](/assets/img/howtoruncolabcodeinvscode/img/overview.gif)
-
+# Using Colab Notebooks in Visual Studio Code
 
 ## Introduction
 
@@ -83,62 +80,6 @@ Now you're ready to run your notebook:
 1. You can run individual cells by clicking the play button next to each cell or by using the keyboard shortcut Shift+Enter.
 2. To run all cells, you can use the "Run All" button at the top of the notebook or in the command palette (Ctrl+Shift+P, then search for "Run All").
 
-## Differences Between Colab and Local Execution
-
-While running your notebook locally in VS Code, keep in mind some key differences from Colab:
-
-### Resource Limitations
-
-When running on your local machine, you're limited to your own hardware resources. This means:
-
-- You won't have access to Colab's free GPUs.
-- The execution speed will depend on your local machine's capabilities.
-- You may need to install additional libraries that were pre-installed in Colab.
-
-### File System Access
-
-In VS Code, you have direct access to your local file system. This can be both an advantage and a potential issue:
-
-- You can easily work with local files and directories.
-- You may need to modify file paths in your code that were specific to Colab's file system.
-
-### Library Management
-
-Managing libraries locally requires a bit more effort:
-
-- You'll need to install required libraries manually using pip or conda.
-- Be mindful of version conflicts and dependencies.
-
-## Tips for a Smooth Transition
-
-To make your transition from Colab to VS Code smoother, consider the following tips:
-
-1. **Create a Virtual Environment**: It's a good practice to create a virtual environment for your project to manage dependencies effectively.
-
-2. **Install Required Libraries**: Review your notebook and install all necessary libraries in your local environment.
-
-3. **Check for Colab-Specific Code**: Look for any Colab-specific code (like mounting Google Drive) and remove or replace it as needed.
-
-4. **Adjust File Paths**: Update any file paths to work with your local file system.
-
-5. **Consider Using Git**: VS Code has excellent Git integration. Consider using version control for your notebooks.
-
-6. **Explore VS Code Extensions**: Look for extensions that can enhance your workflow, such as code formatters, linters, or AI assistants.
-
-## Advanced: Connecting VS Code to Colab's Resources
-
-While this tutorial focuses on running notebooks locally, it's worth noting that it's possible to connect VS Code to Colab's resources, including their GPUs. This process is more complex and involves:
-
-1. Setting up SSH access to the Colab VM.
-2. Configuring port forwarding.
-3. Using VS Code's remote development features.
-
-This advanced setup allows you to use Colab's powerful resources while working in VS Code's environment. However, it requires more technical knowledge and setup time.
-
 ## Conclusion
 
-Running Google Colab notebooks in Visual Studio Code opens up new possibilities for your data science and machine learning projects. By following this guide, you can leverage the power of VS Code's extensive feature set while working with your familiar Jupyter notebooks.
-
-Remember that while local execution gives you more control and customization options, it also means you're responsible for managing your environment and resources. Take the time to set up your local development environment properly, and you'll enjoy a powerful and flexible workflow for your projects.
-
-Whether you choose to run your notebooks locally or explore advanced setups to connect to Colab's resources, VS Code provides a robust platform for your data science and machine learning endeavors. Happy coding!
+By following these steps, you can successfully run your Google Colab notebooks in Visual Studio Code. This allows you to leverage the power of VS Code's extensive feature set while working with your familiar Jupyter notebooks. Remember that when running notebooks locally, you'll be using your own machine's resources instead of Colab's. This approach gives you more control over your development environment and allows you to work offline, making it an excellent option for many data science and machine learning projects.
