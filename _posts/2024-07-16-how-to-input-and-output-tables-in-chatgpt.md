@@ -3,12 +3,12 @@ layout: post
 title: "Using Tables with ChatGPT: A Simple Solution"
 published: true
 date: 2024-07-16
-excerpt: "Tired of messy tables in ChatGPT? Our free GPT Styler tool converts Excel/Word tables to ChatGPT-friendly formats instantly. Copy, paste, click - done. See how this simple tool can streamline your work with AI."
+excerpt: "Tired of messy tables in ChatGPT? The free GPT Styler tool converts Excel/Word tables to ChatGPT-friendly formats instantly. Copy, paste, click - done. See how this simple tool can streamline your work with AI."
 ---
 
 # A Simple Way to Use Tables with ChatGPT
 
-Ever tried to paste a table into ChatGPT and ended up with a jumbled mess? We've got a solution for you. Our free [GPT Styler tool](https://blog.formix.ai/tools/gpt-styler/) helps you easily convert tables between different formats, making them ChatGPT-friendly.
+Pasting tables into ChatGPT often results in a jumbled mess. The free [GPT Styler tool](https://blog.formix.ai/tools/gpt-styler/) converts tables between different formats, making them ChatGPT-friendly.
 
 ![Screenshot clicking button to convert to markdown](/assets/img/how-to-input-and-output-tables-in-chatgpt/overview.gif)
 
@@ -18,7 +18,7 @@ ChatGPT is great for many things, but it doesn't handle formatted text well, esp
 
 ## Enter the GPT Styler Tool
 
-Our tool does two simple things:
+The GPT Styler tool does two simple things:
 
 1. Turns tables from Excel or Word into a format ChatGPT understands (called markdown)
 2. Converts ChatGPT's markdown back into a format for Excel or Word
@@ -37,7 +37,7 @@ Copy your table from Excel or Word.
 
 ### 2. Paste into the GPT Styler
 
-Paste your table into our tool.
+Paste your table into the tool.
 
 ![Screenshot of text copied from table into the GPT Styler](/assets/img/how-to-input-and-output-tables-in-chatgpt/image_1.png)
 
