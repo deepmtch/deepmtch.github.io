@@ -3,7 +3,7 @@
     "lang": "en-us",
     "short_name": "Smartz Tools",
     "description": "Smartz Tools",
-    "start_url": "/tools",
+    "start_url": "/",
     "scope": "/tools",
     "display": "standalone",
     "theme_color": "#2f3d58",
