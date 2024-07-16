@@ -77,8 +77,13 @@ To run your notebook, you need to activate a Python runtime:
 
 Now you're ready to run your notebook:
 
-1. You can run individual cells by clicking the play button next to each cell or by using the keyboard shortcut Shift+Enter.
+1. You can run individual cells by clicking the play button next to each cell or using the keyboard shortcut Shift+Enter.
 2. To run all cells, you can use the "Run All" button at the top of the notebook or in the command palette (Ctrl+Shift+P, then search for "Run All").
+
+## Advanced: Need More Computational Power?
+
+While running notebooks locally in VS Code gives you more control over your environment, you might find yourself needing more computational power, especially for intensive machine learning tasks. If you're looking for alternatives to Colab's free GPUs, consider exploring GPU rental services like [RunPod](https://runpod.io?ref=7su8gs12) and [Vast.ai](https://cloud.vast.ai/?ref_id=145250). These platforms offer affordable GPU rentals on an hourly basis, allowing you to scale your resources based on your project requirements.
+
 
 ## Conclusion
 
