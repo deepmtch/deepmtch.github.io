@@ -9,7 +9,7 @@ title: Tools
       {% assign tool_name = item.path | split: '/' | slice: -2 | first %}
       <div class="tool-item">
         <a href="{{ site.baseurl }}{{ item.path | remove: 'index.html' }}">
-          <img src="{{ site.baseurl }}/tools/{{ tool_name }}/icon.png" alt="{{ tool_name }} icon">
+          <!-- <img src="{{ site.baseurl }}/tools/{{ tool_name }}/icon.png" alt="{{ tool_name }} icon"> -->
           <h3>{{ tool_name | capitalize }}</h3>
         </a>
       </div>
