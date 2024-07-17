@@ -2,10 +2,10 @@
 layout: post
 title: "From Burnout to Fired Up: How 5 Psychological Hacks Saved My Fitness Journey"
 date: 2024-07-17
-author: Mike Thompson
+author: AI Rabbit
 categories: [Fitness, Mental Health, Personal Development]
-tags: [exercise motivation, workout tips, sports psychology, burnout    recovery]
-excerpt: "Let's get real for a second. Being a sports professional isn't all glamour and victory laps. It's early mornings, late nights, and a constant balancing act between pushing others to their limits and somehow finding the energy to maintain your own fitness. "
+tags: [exercise motivation, workout tips, sports psychology, burnout recovery]
+excerpt: "Let's get real for a second. Being a sports professional isn't all glamour and victory laps. It's early mornings, late nights, and a constant balancing act between pushing others to their limits and somehow finding the energy to maintain your own fitness."
 ---
 Let's get real for a second. Being a sports professional isn't all glamour and victory laps. It's early mornings, late nights, and a constant balancing act between pushing others to their limits and somehow finding the energy to maintain your own fitness. For years, I was the guy preaching the gospel of exercise while secretly dreading my own workouts. The irony wasn't lost on me, but damn if I could find a way out of that rut.
 
@@ -17,11 +17,7 @@ Remember those days when you'd hit the club and dance for hours without even rea
 
 ![Dancing Through Workouts](/assets/img/workout-motivation/image1.jpg)
 
-Now, I curate playlists like a DJ prepping for a marathon set. For steady-state cardio, I've got tracks that match my ideal stride rate. For interval training, I alternate between fast-paced bangers and slower recovery beats. But here's where it gets really interesting: I started applying this to strength training too.
-
-Imagine doing bicep curls to the rhythm of Queen's "We Will Rock You." Not only does it make you feel like a badass, but it also helps maintain proper form and tempo. Slow eccentrics? Throw on some slow jams. Explosive movements? Time to bust out the EDM.
-
-The best part? Time flies. What used to feel like an eternity of suffering now passes in what feels like minutes. Plus, I'm constantly challenging myself to try new movements to match different musical styles. Salsa squats, anyone?
+Now, I curate playlists with tracks that match my ideal stride rate for running and different beats for interval training and strength workouts. I prefer instrumental music with repeating beats, which you can easily find on Spotify. Not only does it make the workouts more enjoyable, but it also helps maintain proper form and tempo. Time flies, and what used to feel like an eternity of suffering now passes in what feels like minutes. Plus, I'm constantly trying new movements to match different musical styles. Salsa squats, anyone?
 
 ## 2. The VIP Treatment: Making Exercise the Main Event
 
