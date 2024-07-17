@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GPT Styler</title>
     <link rel="stylesheet" href="style.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  
 </head>
 
 <body>
@@ -16,31 +17,33 @@
         <a href="#about">About</a>
         <a href="#faq">FAQ</a>
     </nav>
-    <div class="toolbar">
-        <button id="convertToMarkdownButton" onclick="convertToMarkdown()">Rich Text to Markdown</button>
-        <button id="convertToHtmlButton" onclick="convertToHtml()">Markdown to Rich Text</button>
-    </div>
 
     <div class="container">
-        <div id="input" contenteditable="true" oninput="detectContent()"></div>
-        <button id="copyButton" onclick="copyText()">Copy Text</button>
-        <div id="message"></div>
+        <p class="description">Convert between rich text/tables and GPT-friendly format for seamless AI interactions.</p>
+        
 
-        <!-- <img src="demo.gif" alt="Demo"> -->
+
+        <div id="input" contenteditable="true" oninput="detectContent()" placeholder="Paste your rich text or tables from Word or other tools here..."></div>
+        <!-- <div id="message"></div> -->
+        <div class="toolbar">
+            <button id="convertToMarkdownButton" onclick="convertToMarkdownAndCopy()">
+            <i class="fas fa-robot"></i> Rich Text/Tables → GPT
+            </button>
+            <button id="convertToHtmlButton" onclick="convertToHtml()">
+            <i class="fas fa-file-alt"></i> GPT → Rich Text/Tables
+            </button>
+        </div>
 
         <div id="about" class="section">
             <h2>About This Tool</h2>
-            <p>This converter allows you to easily switch between Rich Text and Markdown formats. It's particularly
-                useful when working with AI services that only accept plain text input. You can convert your formatted
-                text to Markdown, send it to the AI, and then convert the AI's response back to Rich Text.</p>
+            <p>This converter allows you to easily convert rich text and tables from Word or other tools into a GPT-friendly format, and vice versa. It's particularly useful when working with AI services like GPT that only accept plain text input. You can convert your formatted text and tables to a GPT-friendly format, send it to the AI, and then convert the AI's response back to rich text and formatted tables.</p>
         </div>
 
         <div id="faq" class="section">
             <h2>FAQ</h2>
             <div class="faq-item">
-                <p class="faq-question">Q: Why would I need to convert between Rich Text and Markdown?</p>
-                <p>A: Many AI services only accept plain text input. Converting your formatted text to Markdown allows
-                    you to preserve formatting in a plain text format that's widely supported.</p>
+                <p class="faq-question">Q: Why would I need to convert between Rich Text/Tables and GPT-friendly format?</p>
+                <p>A: Many AI services, including GPT, only accept plain text input. Converting your formatted text and tables to a GPT-friendly format allows you to preserve formatting in a plain text format that's compatible with these AI services.</p>
             </div>
             <div class="faq-item">
                 <p class="faq-question">Q: Is my data safe when using this tool?</p>
@@ -48,13 +51,12 @@
             </div>
             <div class="faq-item">
                 <p class="faq-question">Q: Can I use this tool offline?</p>
-                <p>A: Once the page is loaded, the converter will work offline. However, you'll need an internet
-                    connection to load the page initially.</p>
+                <p>A: Once the page is loaded, the converter will work offline. However, you'll need an internet connection to load the page initially.</p>
             </div>
         </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/2.0.3/marked.min.js"></script>
-    <script src="script.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
