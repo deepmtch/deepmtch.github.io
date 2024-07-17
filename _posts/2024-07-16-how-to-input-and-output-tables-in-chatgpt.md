@@ -10,7 +10,7 @@ excerpt: "Tired of messy tables in ChatGPT? The free GPT Styler tool converts Ex
 
 Pasting tables into ChatGPT often results in a jumbled mess. The free [GPT Styler tool](https://blog.formix.ai/tools/gpt-styler/) converts tables between different formats, making them ChatGPT-friendly.
 
-![Screenshot clicking button to convert to markdown](/assets/img/how-to-input-and-output-tables-in-chatgpt/overview.gif)
+![Screenshot clicking button to convert to markdown](/assets/img/how-to-input-and-output-tables-in-chatgpt/demo.gif)
 
 ## The Problem with Tables in ChatGPT
 
