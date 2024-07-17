@@ -51,21 +51,21 @@ This preparation mindset spilled over into my nutrition too. I started meal prep
 
 The key here isn't just the physical preparation – it's the mental shift. By eliminating these small barriers, I removed the cognitive load of decision-making. Working out became the path of least resistance.
 
-## 4. The Selfish Revolution: Putting My Health First
+## 4. The Selfish Revolution: Prioritizing Health Over Aesthetics
 
-This one was a mindfuck for me, to be honest. As a coach, I'm hardwired to put others first. My athletes' needs, goals, and progress always took precedence over my own. It took a near-burnout experience for me to realize the flaw in this thinking.
+This one was a mindfuck for me, to be honest. As an IT engineer, I'm hardwired to focus on optimization and measurable outcomes. For years, I approached fitness like a system to be optimized - tracking every metric, trying to maximize muscle gain and minimize body fat percentage. It took a near-burnout experience for me to realize the flaw in this thinking.
 
-![Putting My Health First](/assets/img/workout-motivation/image4.jpg)
+![Prioritizing Health Over Aesthetics](/assets/img/workout-motivation/image4.jpg)
 
-I had to learn – really learn – that taking care of myself wasn't just okay, it was necessary. It was like that airplane safety demonstration: "Put on your own oxygen mask before assisting others." I couldn't be an effective coach, colleague, friend, or family member if I was running on empty.
+I had to learn – really learn – that true fitness isn't about optimizing for appearance, but about maintaining a healthy, functional system (my body) for the long term. It was like debugging a critical error in my approach: at the end of the day, it's your health that carries you through life, not your beautifully sculpted muscles or six-pack abs.
 
-So I made a radical change. I started treating my workouts as non-negotiable self-care sessions. I shifted my focus from aesthetic goals ("I need to bench X amount") to how exercise made me feel – stronger, more energetic, more resilient.
+So I made a radical change. I started treating my workouts as preventative maintenance for my body, rather than aesthetic upgrades. I shifted my focus from vanity metrics ("I need to lose X pounds") to how exercise impacted my overall health – improved energy levels, better sleep, reduced stress, and increased longevity.
 
-This meant sometimes saying no to extra work or social engagements to prioritize my workouts. It meant investing in better equipment and recovery tools. It meant actually using my vacation days for active retreats that recharged me.
+This meant sometimes choosing a rejuvenating yoga session over a grueling weightlifting routine. It meant prioritizing proper form and joint health over lifting heavier weights. It meant actually listening to my body's error messages and giving it the rest it needed, rather than pushing through fatigue for the sake of "gains."
 
-The guilt was real at first. But then something amazing happened. Not only did my own health and happiness improve, but I became a better coach. I had more energy, more empathy, and a renewed passion for fitness that was contagious.
+The mindset shift was challenging at first. But then something amazing happened. Not only did my overall health and happiness improve, but I became more productive and focused at work. My improved energy levels and reduced stress translated into better problem-solving skills and increased creativity in my engineering projects.
 
-Remember this: You can't pour from an empty cup. Taking care of yourself isn't selfish; it's the foundation that allows you to show up fully in every other area of your life.
+Remember this: Your body is the hardware that runs the software of your mind. Taking care of your physical health isn't vanity; it's essential maintenance that allows you to perform at your best in every area of your life, including your career.
 
 ## 5. The Rhythm Game: Turning Workouts into Play
 
