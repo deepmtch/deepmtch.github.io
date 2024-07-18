@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "From Burnout to Fired Up: How 5 Psychological Hacks Saved My Fitness Journey"
+title: "From Burnout to Fired Up: How 7 Psychological Hacks Saved My Fitness Journey"
 date: 2024-07-17
 author: AI Rabbit
 categories: [Fitness, Mental Health, Personal Development]
@@ -89,6 +89,20 @@ This approach does several things:
 But the real magic is in how it reframes exercise from a chore to a form of play. I'm not working out; I'm playing a game where my body is the controller and the music is the guide. Some sessions turn into impromptu dance parties. Others become almost meditative as I flow from one movement to the next.
 
 The best part? No two workouts are ever the same. It's impossible to get bored when you're constantly surprising yourself with new movements and challenges.
+
+## 6. Start Small: The Power of 5-Minute Workouts
+
+One of the biggest barriers to starting a workout routine is the belief that you need to commit a significant amount of time. The truth is, you can start with as little as 5 minutes. Yes, just 5 minutes. This low-commitment entry point can quickly lead to longer sessions as you begin to enjoy the process. Even if you only stick to 5 minutes, you'll notice positive impacts on your body and soul. Overcoming that initial resistance, often referred to as the inner "Schweinehund," is a victory in itself.
+
+![Start Small](/assets/img/workout-motivation/image6.jpg)
+
+The magic lies in the simplicity: a short burst of activity can elevate your mood, boost your energy levels, and set a positive
+
+## 7. Remember Your Why: Keeping the Benefits in Mind
+
+You should always keep in the back of your mind why you are doing this. Whenever your thoughts start wrangling, be clear about the benefits of what you are doing (and again, it is the most important thing ever right now). Remind yourself that it will keep you healthy for your heart, reduce illness, and give you an advantage in both body and mind strength. Keeping these benefits at the forefront of your thoughts can help maintain your motivation and focus.
+
+![Remember Your Why](/assets/img/workout-motivation/image7.jpg)
 
 ## The Transformation: From Burnout to Fired Up
 
