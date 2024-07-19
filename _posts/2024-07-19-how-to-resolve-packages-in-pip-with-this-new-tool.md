@@ -68,21 +68,26 @@ After checking multiple versions, pipresolver finally finds a compatible match:
 In this case, pipresolver discovered that gradio version 4.25.0 is compatible with typer <=0.9, solving our dependency conflict.
 
 
+
 ## How to Get Started with pipresolver
 
 Ready to simplify your dependency resolution process? Here's how to get started:
 
-1. **Installation**: You can install pipresolver using pip:
+1. **Clone the Repository**: First, clone the pipresolver repository from GitHub:
    ```
-   pip install pipresolver
-   ```
-
-2. **Basic Usage**: Use the syntax we discussed earlier:
-   ```
-   pipresolver <package to install> <dependent package> <version constraint>
+   git clone https://github.com/deepmtch/pipresolver.git
    ```
 
-3. **Interpreting Results**: pipresolver will output the compatible version it finds. You can then use this information to install the correct version of your package.
+2. **Navigate to the Directory**: Change to the pipresolver directory:
+   ```
+   cd pipresolver
+   ```
 
+3. **Run pipresolver**: Use the following syntax to run the tool:
+   ```
+   python pipresolver.py <package to install> <dependent package> <version constraint>
+   ```
+
+4. **Interpreting Results**: pipresolver will output the compatible version it finds. You can then use this information to install the correct version of your package.
 
 Happy coding, and may your dependencies always resolve smoothly!
