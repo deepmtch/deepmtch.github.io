@@ -88,6 +88,9 @@ Ready to simplify your dependency resolution process? Here's how to get started:
    python pipresolver.py <package to install> <dependent package> <version constraint>
    ```
 
-4. **Interpreting Results**: pipresolver will output the compatible version it finds. You can then use this information to install the correct version of your package.
+4. **Interpreting Results**: pipresolver will output the compatible version it finds. You can then use this information to install the correct version of your package. If a compatible version is found, it will be shown. The tool will stop if the dependency was not present in previous versions.
+
+Please note that while pipresolver aims to be helpful, there's no guarantee of perfect results. The tool might still have bugs, and we'd be happy to have your contributions to improve it. As they say, "Many eyes make all bugs shallow," so feel free to report issues or submit pull requests!
 
 Happy coding, and may your dependencies always resolve smoothly!
+
