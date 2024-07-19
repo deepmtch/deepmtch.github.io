@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Resolving Pip Dependencies with pipresolver"
+title: "Resolving Pip Dependency Conflicts with pipresolver"
 published: true
 date: 2024-07-19
 excerpt: "Struggling with incompatible package versions in Python? Discover pipresolver, a new tool that simplifies finding compatible versions of packages, saving you time and frustration in your development process."
 ---
 
-# Resolving Pip Dependencies with pipresolver
+# Resolving Pip Dependency Conflicts with pipresolver
 
 ![Demo](/assets/img/how-to-resolve-packages-in-pip-with-this-new-tool/demo.gif)
 
