@@ -112,7 +112,58 @@ Now that our worker is operational, let's create a custom GPT that utilizes this
 To enable our GPT to use the Cloudflare Worker, we need to add it as a custom action.
 
 1. In the GPT creation interface, find the "Actions" section and click "Add action".
-2. You'll need to provide a schema for your action. Use the following OpenAPI schema:
+2. You'll need to provide a schema for your action. Use the following OpenAPI schema. 
+
+The schema can be generated using openai or Claude with the following prompt: 
+
+
+```
+Make a Schema for the method below . use the domain
+< ADD YOUR WORKER CODE HERE>
+
+Schema example: 
+
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Get weather data",
+    "description": "Retrieves current weather data for a location.",
+    "version": "v1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://weather.example.com"
+    }
+  ],
+  "paths": {
+    "/location": {
+      "get": {
+        "description": "Get temperature for a specific location",
+        "operationId": "GetCurrentWeather",
+        "parameters": [
+          {
+            "name": "location",
+            "in": "query",
+            "description": "The city and state to retrieve the weather for",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "deprecated": false
+      }
+    }
+  },
+  "components": {
+    "schemas": {}
+  }
+}
+```
+
+The result from Claude or ChatGPT should look like this:
+
+
 
 ```json
 {
