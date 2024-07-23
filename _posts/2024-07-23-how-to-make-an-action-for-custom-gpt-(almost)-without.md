@@ -91,6 +91,7 @@ Before integrating with GPT, let's test our worker to ensure it's functioning co
 2. Add a domain parameter to test, for example: `?domain=example.com`
 
 ![Testing the worker](/assets/img/how-to-make-an-action-for-custom-gpt-(almost)-without-any-coding-using-cloudflare-workers/image_9.png)
+![Testing the worker](/assets/img/how-to-make-an-action-for-custom-gpt-(almost)-without-any-coding-using-cloudflare-workers/image_11.png)
 
 If everything is working correctly, you should see a response of "yes" for existing domains and "no" for non-existent ones.
 
@@ -101,7 +102,10 @@ Now that our worker is operational, let's create a custom GPT that utilizes this
 1. Navigate to the GPT interface and create a new custom GPT.
 2. Give your GPT a name and description related to domain checking.
 
-![Creating a new custom GPT](/assets/img/how-to-make-an-action-for-custom-gpt-(almost)-without-any-coding-using-cloudflare-workers/image_11.png)
+![Creating a new custom GPT](/assets/img/how-to-make-an-action-for-custom-gpt-(almost)-without-any-coding-using-cloudflare-workers/image_101.png)
+![Creating a new custom GPT](/assets/img/how-to-make-an-action-for-custom-gpt-(almost)-without-any-coding-using-cloudflare-workers/image_12.png)
+![Creating a new custom GPT](/assets/img/how-to-make-an-action-for-custom-gpt-(almost)-without-any-coding-using-cloudflare-workers/image_13.png)
+![Creating a new custom GPT](/assets/img/how-to-make-an-action-for-custom-gpt-(almost)-without-any-coding-using-cloudflare-workers/image_14.png)
 
 ### 5. Adding the Custom Action
 
