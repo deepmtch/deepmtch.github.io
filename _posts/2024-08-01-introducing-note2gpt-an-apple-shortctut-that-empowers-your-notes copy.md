@@ -8,7 +8,7 @@ excerpt: "Discover Note2GPT, an innovative Apple Shortcut that enhances your not
 
 ![Demo of Note2GPT in action](/assets/img/introducing-note2gpt/demo.gif)
 
-In our digital age, note-taking has become an essential skill for professionals, students, and creative thinkers alike. While capturing information is often straightforward, extracting value from our notes can be time-consuming. Enter Note2GPT, an ingenious Apple Shortcut that harnesses the power of GPT to revolutionize how we interact with our notes. This versatile tool can summarize, structure, and enrich your Apple Notes, saving you valuable time and enhancing your productivity across a wide range of scenarios.
+In our digital age, note-taking has become an essential skill for professionals, students, and creative thinkers alike. While capturing information is often straightforward, extracting value from our notes can be time-consuming. Enter [Apple Note2GPT](https://powdered3.gumroad.com/l/xbcxlo), an ingenious Apple Shortcut that harnesses the power of GPT to revolutionize how we interact with our notes. This versatile tool can summarize, structure, and enrich your Apple Notes, saving you valuable time and enhancing your productivity across a wide range of scenarios.
 
 ## Apple Note2GPT: Enhancing Your Note-Taking Experience
 
