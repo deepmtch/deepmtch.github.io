@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Introducing Note2GPT: Empower Your Apple Notes with AI"
+title: "Introducing Apple Note2GPT: Empower Your Apple Notes with AI"
 published: true
 date: 2024-08-01
 excerpt: "Discover Note2GPT, an innovative Apple Shortcut that enhances your notes using the power of GPT. Learn how this versatile tool can save you time and boost productivity across a wide range of note-taking scenarios."
@@ -10,7 +10,7 @@ excerpt: "Discover Note2GPT, an innovative Apple Shortcut that enhances your not
 
 In our digital age, note-taking has become an essential skill for professionals, students, and creative thinkers alike. While capturing information is often straightforward, extracting value from our notes can be time-consuming. Enter Note2GPT, an ingenious Apple Shortcut that harnesses the power of GPT to revolutionize how we interact with our notes. This versatile tool can summarize, structure, and enrich your Apple Notes, saving you valuable time and enhancing your productivity across a wide range of scenarios.
 
-## Note2GPT: Enhancing Your Note-Taking Experience
+## Apple Note2GPT: Enhancing Your Note-Taking Experience
 
 Note2GPT is designed to work with various types of notes, from unstructured meeting minutes to creative brainstorming sessions, research summaries, and beyond. Let's explore a typical use case to illustrate its capabilities:
 
@@ -58,36 +58,5 @@ The flexibility of Note2GPT extends far beyond simple summarization. Here are so
 
 ## Getting Started with Note2GPT
 
-Setting up Note2GPT is a straightforward process. Follow these steps to start enhancing your notes with AI:
-
-1. **Install the Shortcut**
-   
-   Click [here](#) to download and install the Note2GPT workflow from Gumroad.
-
-2. **Obtain an OpenAI API Key**
-   
-   You'll need an API key from OpenAI to use Note2GPT. [Click here to learn how to obtain an OpenAI API key](https://platform.openai.com/docs/quickstart/account-setup).
-
-3. **Configure API Key and Prompt**
-   
-   Open the shortcut and input your GPT API key. You can also customize the default prompt to tailor the output to your needs.
-
-   ![API key and prompt configuration](/assets/img/introducing-note2gpt/image_3.png)
-
-   *Screenshot showing where to input API key and customize the prompt*
-
-4. **Set Up Automatic Scheduling**
-   
-   Configure Note2GPT to run automatically at your preferred time, such as at the end of your workday.
-
-   ![Scheduling the shortcut](/assets/img/introducing-note2gpt/image_4.png)
-
-   *Setting up automatic scheduling for Note2GPT*
-
-5. **Enjoy Enriched Notes**
-   
-   After the workflow runs, you'll see your notes enhanced with summaries, action items, or whatever you've configured in your prompt.
-
-   ![Enhanced notes with summaries](/assets/img/introducing-note2gpt/image_5.png)
-
+Setting up Apple Note2GPT is a straightforward process. Follow [these steps](/2024-08-01-note2gpt-quickstart) to start enhancing your notes with AI.
 
